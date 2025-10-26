@@ -55,3 +55,55 @@
 /* Borders */
   --radius-button-radius: 0.625rem;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--primary-fondo);
+  color: var(--text-primary);
+}
+
+
+.hero {
+  background: url('assets/img/header-background.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  pointer-events: none; 
+}
+
+.top-bar {
+  background: var(--primary-secciones-1);
+  color: var(--text-on-dark);
+  padding: 0.5rem 0;
+}
+
+.top-bar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.top-bar a {
+  color: var(--text-on-dark);
+  text-decoration: none;
+}
