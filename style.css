@@ -29,22 +29,29 @@
   grid-column: 7 / 12;
 }
 
-.banner-text {
-  position: relative;
-  font-family: Arial, sans-serif;
-  font-size: 1.2em;
-  color: #000;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.banner-text::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px; /* Ajusta el ancho según necesites */
-  height: 5px; /* Ajusta la altura según necesites */
-  background-color: #003366; /* Cambia el color según el tono de azul que desees */
-  margin-bottom: 8px;
+:root {
+  /* color */
+  --auxiliary-acentos-1: #c55a26;
+  --auxiliary-acentos-2: #e3be86;
+  --auxiliary-hover: #faa82a;
+  --basics-black: #000000;
+  --basics-white: #f1f0ea;
+  --primary-fondo: var(--basics-white);
+  --primary-secciones-1: #112c50;
+  --secondary-secciones-2: #b9cade;
+  --secondary-secciones-3: #d7c2b6;
+  --text-on-dark: var(--basics-white);
+  --text-primary: var(--basics-black);
+  /* sizes */
+  --size-button-text: 0.875rem;
+  --size-parrafo: 1rem;
+  --size-h4: 1.125rem;
+  --size-texto-destacado: 1.25rem;
+  --size-h3: 2rem;
+  --size-h2: 2.25rem;
+  --size-h1: 3.4375rem;
+  /* string */
+  --weight-parrafo: 400;
+/* Borders */
+  --radius-button-radius: 0.625rem;
 }
