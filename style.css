@@ -262,3 +262,40 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
+
+.team {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.team h3 {
+  font-size: var(--size-h3);
+  margin-bottom: 3rem;
+  color: var(--primary-secciones-1);
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.team-members article {
+  text-align: center;
+}
+
+.team-members img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.team-members h4 {
+  font-size: var(--size-h4);
+  margin-bottom: 0.5rem;
+  color: var(--primary-secciones-1);
+}
