@@ -166,3 +166,32 @@ nav {
   color: var(--auxiliary-hover);
 }
 
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: var(--radius-button-radius);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 1rem;
+  transition: all 0.3s;
+}
+
+.primary {
+  background: var(--auxiliary-acentos-1);
+  color: var(--text-on-dark);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--text-on-dark);
+  border: 2px solid var(--text-on-dark);
+}
+
+.primary:hover {
+  background: var(--auxiliary-hover);
+}
+
+.secondary:hover {
+  background: var(--text-on-dark);
+  color: var(--primary-secciones-1);
+}
