@@ -319,3 +319,20 @@ nav {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+blockquote {
+  background: var(--basics-white);
+  padding: 2rem;
+  border-radius: var(--radius-button-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+blockquote p {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+blockquote footer {
+  color: var(--auxiliary-acentos-1);
+  font-weight: bold;
+}
