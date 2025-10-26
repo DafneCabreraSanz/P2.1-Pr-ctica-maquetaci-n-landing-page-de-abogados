@@ -455,3 +455,26 @@ footer ul {
 footer ul li {
   margin-bottom: 0.5rem;
 }
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: var(--radius-button-radius);
+  margin-bottom: 1rem;
+}
+
+.newsletter button {
+  background: var(--auxiliary-acentos-1);
+  color: var(--text-on-dark);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--radius-button-radius);
+  cursor: pointer;
+}
