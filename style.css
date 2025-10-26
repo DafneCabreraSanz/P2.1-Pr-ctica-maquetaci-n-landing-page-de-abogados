@@ -420,3 +420,38 @@ form button {
   border: none;
   border-radius: var(--radius-button-radius);
 }
+
+footer {
+  background-color: var(--primary-secciones-1);
+  color: var(--text-on-dark);
+  padding: 4rem 2rem;
+}
+
+.footer-info,
+.footer-nav,
+.footer-logo,
+.newsletter {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+footer a {
+  color: var(--text-on-dark);
+  text-decoration: none;
+}
+
+footer h4 {
+  font-size: var(--size-h4);
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
