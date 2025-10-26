@@ -89,6 +89,32 @@ body {
   pointer-events: none; 
 }
 
+.hero-content {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  color: var(--text-on-dark);
+  z-index: 1; 
+}
+
+.highlight {
+  color: var(--auxiliary-acentos-2);
+}
+
+.hero-content h1 {
+  font-size: var(--size-h1);
+  margin: 1rem 0;
+  max-width: 800px;
+}
+
+.hero-content p {
+  font-size: var(--size-texto-destacado);
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+
 .top-bar {
   background: var(--primary-secciones-1);
   color: var(--text-on-dark);
