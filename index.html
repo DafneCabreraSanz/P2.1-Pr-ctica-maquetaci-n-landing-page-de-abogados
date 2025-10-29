@@ -54,7 +54,9 @@
   <!-- About Section -->
   <section class="about">
     <article>
-      <h2>Klaus Maziul, abogado alemán licenciado en España</h2>
+      <div class="banner-text">
+        <h2>Klaus Maziul, abogado alemán licenciado en España</h2>
+      </div>
       <p>
         Su amplia experiencia en derecho procesal se ha desarrollado
         representando a entidades financieras españolas y a la Compañía
@@ -85,10 +87,12 @@
 
 
   <section class="team">
-    <h3>
-      Bienvenido a nuestro despacho de abogados trilingüe Donde la excelencia
-      jurídica en alemán, español e inglés está en casa.
-    </h3>
+    <div class="banner-text">
+      <h3>
+        Bienvenido a nuestro despacho de abogados trilingüe Donde la excelencia
+        jurídica en alemán, español e inglés está en casa.
+      </h3>
+    </div>
     <div class="team-members">
       <article>
         <img src="assets/img/john-carter.jpg" alt="John Carter" />
@@ -110,7 +114,9 @@
 
 
   <section class="testimonials">
-    <h3>Lo que nuestros clientes dicen de nosotros:</h3>
+    <div class="banner-text">
+      <h3>Lo que nuestros clientes dicen de nosotros:</h3>
+    </div>
     <div class="testimonials-container">
       <blockquote>
         <p>
@@ -134,7 +140,9 @@
   </section>
 
   <section class="contact-form">
-    <h3>Consulta gratuita</h3>
+    <div class="banner-text">
+      <h3>Consulta gratuita</h3>
+    </div>
     <p>
       Programar una consulta es fácil. Llámenos directamente o complete el
       formulario en línea.
@@ -156,7 +164,9 @@
 
 
   <section class="location">
-    <h3>Dónde encontrarnos</h3>
+    <div class="banner-text">
+      <h3>Dónde encontrarnos</h3>
+    </div>
     <p>C/ Barcas 31, Valencia CP. 46005</p>
     <div class="map">
 
@@ -164,35 +174,50 @@
     </div>
   </section>
 
-  <footer>
-    <div class="footer-info">
-      <a href="#">Política de privacidad</a>
-      <a href="#">FAQS</a>
-      <a href="#">Cómo llegar</a>
-    </div>
-    <div class="footer-nav">
-      <h4>NAVIGATION</h4>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Casos de estudio</a></li>
-        <li><a href="#">Sobre nosotros</a></li>
-      </ul>
-    </div>
-    <div class="footer-logo">
-      <h1>Maziul & Asociados</h1>
-      <div class="social-media">
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">LinkedIn</a>
+  <footer class="pie-pagina">
+    <div class="pie-pagina__contenedor">
+      <div class="pie-pagina__columna">
+        <h4 class="pie-pagina__titulo">Legal</h4>
+        <div class="pie-pagina__enlaces">
+          <a href="#" class="pie-pagina__enlace">Política de privacidad</a>
+          <a href="#" class="pie-pagina__enlace">Location</a>
+          <a href="#" class="pie-pagina__enlace">FAQS</a>
+          <a href="#" class="pie-pagina__enlace">Cómo llegar</a>
+        </div>
       </div>
-    </div>
-    <div class="newsletter">
-      <h4>Suscríbete a nuestra newsletter</h4>
-      <form action="#" method="POST">
-        <input type="email" placeholder="Tu email" />
-        <button type="submit">Enviar</button>
-      </form>
+
+      <div class="pie-pagina__columna">
+        <h4 class="pie-pagina__titulo">NAVIGATION</h4>
+        <ul class="pie-pagina__navegacion">
+          <li><a href="#" class="pie-pagina__enlace">Home</a></li>
+          <li><a href="#" class="pie-pagina__enlace">Servicios</a></li>
+          <li><a href="#" class="pie-pagina__enlace">Casos de estudio</a></li>
+          <li><a href="#" class="pie-pagina__enlace">Sobre nosotros</a></li>
+        </ul>
+      </div>
+
+      <div class="pie-pagina__columna">
+        <img src="assets/img/logo-maziul.svg" alt="Maziul & Asociados" class="pie-pagina__logo">
+        <div class="pie-pagina__redes">
+          <a href="#" class="pie-pagina__red-social">
+            <img src="assets/img/twitter.svg" alt="Twitter">
+          </a>
+          <a href="#" class="pie-pagina__red-social">
+            <img src="assets/img/facebook.svg" alt="Facebook">
+          </a>
+          <a href="#" class="pie-pagina__red-social">
+            <img src="assets/img/instagram.svg" alt="Instagram">
+          </a>
+        </div>
+      </div>
+
+      <div class="pie-pagina__columna">
+        <h4 class="pie-pagina__titulo">Apúntate a nuestra newsletter</h4>
+        <form class="pie-pagina__newsletter">
+          <input type="email" placeholder="Tu email" class="pie-pagina__input">
+          <button type="submit" class="pie-pagina__boton">ENVIAR</button>
+        </form>
+      </div>
     </div>
   </footer>
 </body>

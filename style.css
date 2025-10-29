@@ -525,3 +525,112 @@ footer ul li {
     text-align: center;
   }
 }
+.pie-pagina {
+  background-color: var(--primary-secciones-1);
+  color: var(--text-on-dark);
+  padding: 4rem 2rem;
+}
+
+.pie-pagina__contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}
+
+.pie-pagina__columna {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pie-pagina__titulo {
+  font-family: var(--font-family-text);
+  font-size: 1rem;
+  color: var(--text-on-dark);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.pie-pagina__enlace {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-family: var(--font-family-text);
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.pie-pagina__enlace:hover {
+  color: var(--text-on-dark);
+}
+
+.pie-pagina__navegacion {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pie-pagina__logo {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.pie-pagina__redes {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.pie-pagina__red-social {
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.3s ease;
+}
+
+.pie-pagina__red-social:hover {
+  border-color: var(--text-on-dark);
+}
+
+.pie-pagina__newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pie-pagina__input {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  color: var(--text-on-dark);
+  font-family: var(--font-family-text);
+}
+
+.pie-pagina__input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pie-pagina__boton {
+  align-self: flex-end;
+  background-color: transparent;
+  color: var(--text-on-dark);
+  border: 1px solid var(--text-on-dark);
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-family: var(--font-family-text);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pie-pagina__boton:hover {
+  background-color: var(--text-on-dark);
+  color: var(--primary-secciones-1);
+}
