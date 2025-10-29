@@ -45,8 +45,7 @@
         internacionales y locales.
       </p>
       <div class="hero-buttons">
-        <a href="#" class="btn primary text-dark">Contacta con nosotros</a><a href="#" class="btn secondary">Casos de
-          éxito</a>
+        <a href="#" class="btn primary">Contacta con nosotros</a><a href="#" class="btn secondary">Casos de éxito</a>
       </div>
     </div>
   </header>
@@ -54,9 +53,7 @@
   <!-- About Section -->
   <section class="about">
     <article>
-      <div class="banner-text">
-        <h2>Klaus Maziul, abogado alemán licenciado en España</h2>
-      </div>
+      <h2>Klaus Maziul, abogado alemán licenciado en España</h2>
       <p>
         Su amplia experiencia en derecho procesal se ha desarrollado
         representando a entidades financieras españolas y a la Compañía
@@ -68,13 +65,14 @@
         Siempre persigue el objetivo de encontrar soluciones óptimas a sus
         problemas legales y proteger sus derechos.
       </p>
-      <a href="#" class="btn primary text-dark">Contacta con nosotros</a>
+      <a href="#" class="btn primary">Contacta con nosotros</a>
     </article>
     <aside>
       <img src="assets/img/klaus-maziul.jpg" alt="Klaus Maziul hablando por teléfono" />
     </aside>
   </section>
 
+  <!-- Services Section -->
   <section class="services">
     <h3>Bufete de abogados trilingüe: alemán, español e inglés</h3>
     <p>
@@ -82,41 +80,50 @@
       resultados y cubra de forma integral sus preocupaciones legales en los
       tres idiomas
     </p>
-    <a href="#" class="btn primary">Conoce a nuestro equipo</a>
+    <a href="#" class="btn secondary">Conoce a nuestro equipo</a>
   </section>
 
 
-  <section class="team">
-    <div class="banner-text">
-      <h3>
-        Bienvenido a nuestro despacho de abogados trilingüe Donde la excelencia
+  <!-- Team Section -->
+  <section class="team team-grid">
+    <div class="team-left">
+      <div class="blue-square-team"></div>
+      <h3 class="title-team">
+        Bienvenido a nuestro despacho de abogados trilingüe, donde la excelencia
         jurídica en alemán, español e inglés está en casa.
       </h3>
+      <button class="btn-secondary"><a href="#" class="button-link-white">CONÓCENOS</a></button>
     </div>
-    <div class="team-members">
-      <article>
-        <img src="assets/img/john-carter.jpg" alt="John Carter" />
-        <h4>John Carter</h4>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-      </article>
-      <article>
-        <img src="assets/img/july-carter.jpg" alt="July Carter" />
-        <h4>July Carter</h4>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-      </article>
-      <article>
-        <img src="assets/img/peter-carter.jpg" alt="Peter Carter" />
-        <h4>Peter Carter</h4>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-      </article>
+    <div class="team-right">
+      <div class="box-blue">
+        <p class="text-box-team">Nuestros abogados altamente cualificados le ofrecen confianza basada en <strong>20 años
+            de experiencia</strong> protegiendo su derecho y su negocio en España.</p>
+
+        <div class="team-members">
+          <article class="member">
+            <div class="photo"><img src="assets/img/john-carter.jpg" alt="John Carter" /></div>
+            <h4 class="title-card">John Carter</h4>
+            <p class="text-card">Lorem ipsum dolor sit amet consectetur. Posuere condimentum tincidunt id id.</p>
+          </article>
+          <article class="member">
+            <div class="photo"><img src="assets/img/july-carter.jpg" alt="July Carter" /></div>
+            <h4 class="title-card">July Carter</h4>
+            <p class="text-card">Lorem ipsum dolor sit amet consectetur. Posuere condimentum tincidunt id id.</p>
+          </article>
+          <article class="member">
+            <div class="photo"><img src="assets/img/peter-carter.jpg" alt="Peter Carter" /></div>
+            <h4 class="title-card">Peter Carter</h4>
+            <p class="text-card">Lorem ipsum dolor sit amet consectetur. Posuere condimentum tincidunt id id.</p>
+          </article>
+        </div>
+      </div>
     </div>
   </section>
 
 
+  <!-- Testimonials Section -->
   <section class="testimonials">
-    <div class="banner-text">
-      <h3>Lo que nuestros clientes dicen de nosotros:</h3>
-    </div>
+    <h3>Lo que nuestros clientes dicen de nosotros:</h3>
     <div class="testimonials-container">
       <blockquote>
         <p>
@@ -139,41 +146,48 @@
     </div>
   </section>
 
-  <section class="contact-form">
-    <div class="banner-text">
-      <h3>Consulta gratuita</h3>
-    </div>
-    <p>
-      Programar una consulta es fácil. Llámenos directamente o complete el
-      formulario en línea.
-    </p>
-    <form action="#" method="POST">
-      <label for="name">Nombre</label>
-      <input type="text" id="name" name="name" />
-      <label for="surname">Apellidos</label>
-      <input type="text" id="surname" name="surname" />
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" />
-      <label for="subject">Título</label>
-      <input type="text" id="subject" name="subject" />
-      <label for="message">Motivo de consulta</label>
-      <textarea id="message" name="message"></textarea>
-      <button type="submit" class="btn primary">Enviar</button>
+  <!-- Contact Form Section -->
+  <section class="consulta-gratuita">
+    <h3 class="consulta-gratuita__titulo">Consulta gratuita</h3>
+    <p class="consulta-gratuita__descripcion">Programar una consulta es fácil. Puede llamarnos directamente al número
+      proporcionado en nuestro sitio web o completar el formulario de contacto en línea.</p>
+    <form class="formulario-contacto">
+      <div class="campo-formulario">
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required class="campo-entrada">
+      </div>
+      <div class="campo-formulario">
+        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required class="campo-entrada">
+      </div>
+      <div class="campo-formulario">
+        <input type="email" id="email" name="email" placeholder="Email" required class="campo-entrada">
+      </div>
+      <div class="campo-formulario">
+        <input type="tel" id="tlf" name="tlf" placeholder="Tlf" required class="campo-entrada">
+      </div>
+      <div class="campo-formulario campo-formulario--ancho-completo">
+        <textarea id="motivo" name="motivo" placeholder="Motivo de consulta" required
+          class="campo-entrada campo-entrada--area-texto"></textarea>
+      </div>
+      <button type="submit" class="boton-enviar">ENVIAR</button>
     </form>
   </section>
 
-
-  <section class="location">
-    <div class="banner-text">
-      <h3>Dónde encontrarnos</h3>
+  <!-- Location Section -->
+  <section class="ubicacion">
+    <div class="ubicacion__contenido">
+      <div class="ubicacion__separador"></div>
+      <h3 class="ubicacion__titulo">Dónde encontrarnos</h3>
+      <p class="ubicacion__direccion">C/ Barcas 31, Valencia CP. 46005</p>
     </div>
-    <p>C/ Barcas 31, Valencia CP. 46005</p>
-    <div class="map">
-
-      <iframe src="https://www.google.com/maps/embed?..."></iframe>
+    <div class="ubicacion__mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.9955234547687!2d-0.37419518434596037!3d39.470793879484096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f2b40b106e9%3A0xb0e83e0f6d461f45!2sCarrer%20de%20les%20Barques%2C%2031%2C%2046002%20Val%C3%A8ncia%2C%20Valencia!5e0!3m2!1ses!2ses!4v1635409824761!5m2!1ses!2ses"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="pie-pagina">
     <div class="pie-pagina__contenedor">
       <div class="pie-pagina__columna">
